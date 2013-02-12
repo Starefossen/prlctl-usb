@@ -17,5 +17,5 @@ if [[ $1 && $2 ]]; then
 		prlctl set $VM $ACT $DEVICE
 	done
 else
-	echo 'usage: prlctl-usb [--detatch] <device-name> <vm-name|vm-id>'
+	echo 'usage: prlctl-usb [--detatch] <device-id> <vm-name|vm-id>'
 fi
